@@ -1,7 +1,7 @@
 
 #import "ViewController.h"
 
-// TODO #import "library.h"
+#import "library.h"
 
 @interface ViewController ()
 
@@ -41,7 +41,7 @@
 
 - (void)step
 {
-    // TODO library::frame();
+    library::frame();
 }
 
 @end

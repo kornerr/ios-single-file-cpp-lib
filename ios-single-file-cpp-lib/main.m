@@ -1,10 +1,3 @@
-//
-//  main.m
-//  ios-single-file-cpp-lib
-//
-//  Created by kornerr on 3/29/18.
-//  Copyright © 2018 opengamestudio. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"

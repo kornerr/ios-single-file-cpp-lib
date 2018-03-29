@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2F9D4C47206CDFC100A46610 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D4C45206CDFC000A46610 /* ViewController.mm */; };
 		2F9D4C48206CDFC100A46610 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9D4C46206CDFC000A46610 /* ViewController.xib */; };
+		2F9D4C4B206CE12500A46610 /* library.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D4C4A206CE12500A46610 /* library.cpp */; };
 		2FBBF1E9206CDDD0009D2FC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBBF1E8206CDDD0009D2FC7 /* AppDelegate.m */; };
 		2FBBF1F1206CDDD0009D2FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBBF1F0206CDDD0009D2FC7 /* Assets.xcassets */; };
 		2FBBF1F4206CDDD0009D2FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBBF1F2206CDDD0009D2FC7 /* LaunchScreen.storyboard */; };
@@ -18,6 +19,8 @@
 /* Begin PBXFileReference section */
 		2F9D4C45206CDFC000A46610 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		2F9D4C46206CDFC000A46610 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		2F9D4C49206CE12500A46610 /* library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = library.h; sourceTree = "<group>"; };
+		2F9D4C4A206CE12500A46610 /* library.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = library.cpp; sourceTree = "<group>"; };
 		2FBBF1E4206CDDD0009D2FC7 /* ios-single-file-cpp-lib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-single-file-cpp-lib.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBBF1E7206CDDD0009D2FC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2FBBF1E8206CDDD0009D2FC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				2FBBF1EA206CDDD0009D2FC7 /* ViewController.h */,
 				2F9D4C45206CDFC000A46610 /* ViewController.mm */,
 				2F9D4C46206CDFC000A46610 /* ViewController.xib */,
+				2F9D4C49206CE12500A46610 /* library.h */,
+				2F9D4C4A206CE12500A46610 /* library.cpp */,
 				2FBBF1F0206CDDD0009D2FC7 /* Assets.xcassets */,
 				2FBBF1F2206CDDD0009D2FC7 /* LaunchScreen.storyboard */,
 				2FBBF1F5206CDDD0009D2FC7 /* Info.plist */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FBBF1F7206CDDD0009D2FC7 /* main.m in Sources */,
+				2F9D4C4B206CE12500A46610 /* library.cpp in Sources */,
 				2FBBF1E9206CDDD0009D2FC7 /* AppDelegate.m in Sources */,
 				2F9D4C47206CDFC100A46610 /* ViewController.mm in Sources */,
 			);
@@ -271,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8379YHJ3XA;
 				INFOPLIST_FILE = "ios-single-file-cpp-lib/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -285,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8379YHJ3XA;
 				INFOPLIST_FILE = "ios-single-file-cpp-lib/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
